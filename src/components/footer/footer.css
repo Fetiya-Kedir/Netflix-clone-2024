@@ -1,0 +1,61 @@
+.footer_outer_container {
+    background-color: #111;
+    color: #ccc; /* Light gray text color */
+    padding: 20px 0; /* Add some padding for spacing */
+    display: flex;
+    justify-content: center;
+}
+
+.footer_inner_container {
+    width: 80%; /* Adjusted width for better responsiveness */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align content */
+}
+
+.footer_icons {
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center align icons */
+    margin-bottom: 20px; /* Add some space below icons */
+}
+
+.footer_icons svg {
+    font-size: 24px; /* Increase icon size */
+    margin: 0 100px; /* Add space between icons */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+.footer_data {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; /* Evenly distribute content */
+    margin-bottom: 20px; /* Add some space below data sections */
+}
+
+.footer_data ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer_data ul li {
+    margin-bottom: 10px; /* Add space between list items */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+.service_code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff; /* White border */
+    width: 150px; /* Adjusted width */
+    height: 40px; /* Adjusted height */
+    margin-bottom: 20px; /* Add space below service code */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+.copy_write {
+    font-size: 12px;
+    text-align: center; /* Center align copyright text */
+}
