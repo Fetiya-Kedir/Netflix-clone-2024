@@ -1,15 +1,16 @@
-import React from 'react'
-import Footer from '../../components/footer/Footer'
-import Header from '../../components/Header/Header'
+import React from 'react';
+import Footer from '../../components/footer/Footer';
+import Header from '../../components/Header/Header';
+import Banner from '../../components/banner/Banner';
 
 const Home = () => {
-  return (
-      <>
-          <Header/>
-          <Footer />
-          
-    </>
-  )
-}
+	return (
+		<>
+			<Header />
+			<Banner />
+			<Footer />
+		</>
+	);
+};
 
-export default Home
+export default Home;

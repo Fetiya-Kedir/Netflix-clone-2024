@@ -1,0 +1,79 @@
+.banner {
+    margin-top: 0; /* Remove space between header and banner */
+    height: 80vh;
+    margin-bottom: 80px;
+    color: white;
+    object-fit: contain;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.banner_contents {
+    margin-left: 30px;
+    margin-top: 0; /* Adjusted to remove extra space at the top */
+    z-index: 1; /* Ensures content is above background fade */
+}
+
+.banner_title {
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75); /* Add shadow for better readability */
+}
+
+.banner_description {
+    width: 45rem;
+    line-height: 1.3; /* Increased line height for readability */
+    padding: 1rem 0;
+    font-size: 1.2rem; /* Slightly larger font */
+    max-width: 360px;
+    height: auto; /* Allow height to adjust to content */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75); /* Add shadow for better readability */
+}
+
+.banner_button {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding: 1rem 3rem;
+    margin-right: 2rem;
+    background-color: rgba(51, 51, 51, 0.5);
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.banner_button_play {
+    color: #000;
+    background-color: #fff;
+}
+
+.banner_button_play:hover {
+    background-color: #c6c6c6;
+}
+
+.banner_button:hover {
+    color: #000;
+    background-color: #c6c6c6;
+}
+
+.banner_fadeBottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40vh;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37, 37, 37, 0.91),
+        #111
+    );
+}
