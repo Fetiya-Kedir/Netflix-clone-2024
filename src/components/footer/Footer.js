@@ -7,7 +7,7 @@ import './footer.css';
 const Footer = () => {
 	return (
 		<div className="footer_outer_container">
-			<div className="footer_inner_container">
+			<div className="footer_inner_container"> 
 				<div footer_icons>
 					<FacebookOutlinedIcon />
 					<InstagramIcon />
@@ -19,6 +19,13 @@ const Footer = () => {
 							<li>Audio Descriprtion</li>
 							<li>Investor Relations</li>
 							<li>Legal Notice</li>
+						</ul>
+					</div>
+					<div>
+						<ul>
+							<li>Help Centers</li>
+							<li>Jobs</li>
+							<li>Cookies Preference</li>
 						</ul>
 					</div>
 					<div>
