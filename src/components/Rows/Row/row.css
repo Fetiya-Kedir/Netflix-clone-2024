@@ -17,15 +17,7 @@
 .row_posters::-webkit-scrollbar {
     display: none;
 }
-.row_posters {
-    display: flex;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    padding: 20px;
-    scroll-behavior: smooth;
-    /* Auto-scrolling */
-    animation: scroll 20s linear infinite;
-}
+
 
 .row_poster {
     max-height: 100px;
