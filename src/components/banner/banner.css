@@ -77,3 +77,68 @@
         #111
     );
 }
+
+/* Media Queries for responsiveness */
+@media (max-width: 1024px) {
+    .banner_title {
+        font-size: 2.5rem; /* Adjust title font size */
+    }
+
+    .banner_description {
+        width: 30rem; /* Adjust description width */
+        font-size: 1rem; /* Adjust description font size */
+    }
+
+    .banner_button {
+        font-size: 1rem; /* Adjust button font size */
+        padding: 0.8rem 2rem; /* Adjust button padding */
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 60vh; /* Adjust banner height */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .banner_title {
+        font-size: 2rem; /* Adjust title font size */
+    }
+
+    .banner_description {
+        width: 25rem; /* Adjust description width */
+        font-size: 0.9rem; /* Adjust description font size */
+    }
+
+    .banner_button {
+        font-size: 0.9rem; /* Adjust button font size */
+        padding: 0.7rem 1.5rem; /* Adjust button padding */
+        margin-right: 1rem; /* Adjust button margin */
+    }
+}
+
+@media (max-width: 480px) {
+    .banner {
+        height: 50vh; /* Adjust banner height */
+        padding: 5px; /* Reduce padding */
+    }
+
+    .banner_contents {
+        margin-left: 10px; /* Reduce left margin */
+    }
+
+    .banner_title {
+        font-size: 1.5rem; /* Adjust title font size */
+    }
+
+    .banner_description {
+        width: 20rem; /* Adjust description width */
+        font-size: 0.8rem; /* Adjust description font size */
+    }
+
+    .banner_button {
+        font-size: 0.8rem; /* Adjust button font size */
+        padding: 0.6rem 1rem; /* Adjust button padding */
+        margin-right: 0.5rem; /* Adjust button margin */
+    }
+}

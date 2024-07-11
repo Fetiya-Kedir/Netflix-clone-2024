@@ -1,3 +1,23 @@
-.App {
-  /* background-color: black; */
+/* .App {
+  background-color: black;
 }
+/* Ensure the App container doesn't introduce overflow */
+.App {
+    overflow-x: hidden;
+} */
+.App {
+    overflow-x: hidden;
+}
+
+/* Ensure no general overflow properties are applied globally that might affect the header */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Ensure other elements do not introduce overflow */
+main {
+    overflow: auto; /* or as needed */
+}
+

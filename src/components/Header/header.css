@@ -5,13 +5,12 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(20, 20, 20);
-    background-color: transparent;
     height: 10vh;
-    color: #d3d3d3; /* Dim white color */
+    color: #d3d3d3; 
     transition: all 0.5s;
     transition-timing-function: ease-in;
     z-index: 1;
-    background-color: black;
+    background-color: black; 
 }
 
 .header_container {
@@ -37,15 +36,15 @@
 
 .header_left li, .header_right li {
     margin: 0 10px;
-    color: #d3d3d3; /* Ensure list items also have dim white color */
+    color: #d3d3d3; 
 }
 
 .header_left img {
     margin-right: 10px;
-    opacity: 0.8; /* Adjust opacity if needed */
+    opacity: 0.8; 
 }
 
 .header_left li:hover, .header_right li:hover {
-    cursor: pointer; /* Change cursor to hand on hover */
-    color: #ffffff; /* Optional: Change text color on hover */
+    cursor: pointer; 
+    color: #ffffff; 
 }

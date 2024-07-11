@@ -22,7 +22,7 @@
 
 .footer_icons svg {
     font-size: 24px; /* Increase icon size */
-    margin: 0 100px; /* Add space between icons */
+    margin: 0 10px; /* Adjust space between icons */
     cursor: pointer; /* Change cursor on hover */
 }
 
@@ -58,4 +58,49 @@
 .copy_write {
     font-size: 12px;
     text-align: center; /* Center align copyright text */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .footer_inner_container {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .footer_icons {
+        justify-content: center; /* Center align icons */
+        margin-bottom: 10px; /* Reduce margin */
+    }
+
+    .footer_icons svg {
+        margin: 0 5px; /* Reduce space between icons */
+    }
+
+    .footer_data {
+        flex-direction: column; /* Stack data sections vertically */
+        align-items: center; /* Center align data sections */
+        margin-bottom: 10px; /* Reduce margin */
+    }
+
+    .footer_data ul {
+        text-align: center; /* Center align list items */
+    }
+
+    .footer_data ul li {
+        margin-bottom: 5px; /* Reduce space between list items */
+    }
+}
+
+@media (max-width: 480px) {
+    .footer_inner_container {
+        width: 95%; /* Further adjust width for very small screens */
+    }
+
+    .service_code {
+        width: 120px; /* Reduce width */
+        height: 35px; /* Reduce height */
+    }
+
+    .copy_write {
+        font-size: 10px; /* Reduce font size */
+    }
 }
